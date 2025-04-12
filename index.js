@@ -294,7 +294,7 @@ console.log(findMin(dig));
    const myDigs = [1,2,3,4,5]
    console.log(filterOdd(myDigs));
    
-//////
+////
    function debounce(func, delay){
     let timer;
 
@@ -303,18 +303,29 @@ console.log(findMin(dig));
         timer = setTimeout(func, delay);
     };
    }
-   function myFunc(){
-    console.log("Execution");
+//    function myFunc(){
+//     console.log("Lovelace");
     
-   }
+//    }
 
 
-   const debouncedFunc = debounce(myFunc, 1000);
-  debouncedFunc();
-  debouncedFunc();
-  debouncedFunc();
+//    const debouncedFunc = debounce(myFunc, 1000);
+//   debouncedFunc();
+//   debouncedFunc();
+//   debouncedFunc();
 
-  setTimeout(debouncedFunc, 1500)
+//   setTimeout(debouncedFunc, 1500)
+
+//   function sortByKey(arr, key){
+//     return arr.sort((a,b) => a[name]- b[name])
+//   }
+// const students = sortByKey[
+//     {name:"John", school:"AnitaB"},
+//     {name:"Alice", school:"Taiyo"},
+//     {name:"Vicky", school:"Lovelace"}
+// ]
+// console.log(students.name);
+
 
    
 
